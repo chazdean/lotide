@@ -15,9 +15,10 @@ let tail = function(array) {
 };
 
 const words = ["Yo Yo", "Lighthouse", "Labs"];
-const empty = [];
 tail(words);
-console.log(tail(empty));
 let result = tail(words);
 assertEqual(words.length, 3);
 assertEqual(result[0], "Lighthouse");
+
+const empty = [];
+console.log(tail(empty));
