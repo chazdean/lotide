@@ -2,7 +2,6 @@
 const head   = require('./head');
 const tail   = require('./tail');
 const middle = require('./middle');
-const reverse = require('./reverse');
 const without = require('./without');
 const flatten = require('./flatten');
 const countOnly = require('./countOnly');
@@ -23,7 +22,6 @@ module.exports = {
   head:   head,
   tail:   tail,
   middle: middle,
-  reverse: reverse,
   without: without,
   flatten: flatten,
   countOnly: countOnly,
