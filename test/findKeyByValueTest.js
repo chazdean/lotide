@@ -10,11 +10,11 @@ const bestTVShowsByGenre = {
 describe("#findKeyByValue", () => {
 
   it('returns The Wire for drama', () => {
-    assert.deepEqual(findKeyByValue(bestTVShowsByGenre, "drama"), "The Wire");
+    assert.strictEqual(findKeyByValue(bestTVShowsByGenre, "drama"), "The Wire");
   });
 
   it("returns undefined for The 70s Show", () => {
-    assert.deepEqual(findKeyByValue(bestTVShowsByGenre, "That '70s Show"), undefined);
+    assert.strictEqual(findKeyByValue(bestTVShowsByGenre, "That '70s Show"), undefined);
   });
 
 });
