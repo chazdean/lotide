@@ -1,5 +1,5 @@
 {
-  "name": "lotide",
+  "name": "@chazdean/lotide",
   "version": "1.0.0",
   "main": "assertArraysEqual.js",
   "directories": {
@@ -12,7 +12,7 @@
     "type": "git",
     "url": "git+https://github.com/chazdean/lotide.git"
   },
-  "author": "",
+  "author": "Chaz Dean <cdean00@icloud.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/chazdean/lotide/issues"
@@ -106,5 +106,5 @@
     "which": "^2.0.2",
     "yargs-parser": "^20.2.4"
   },
-  "description": ""
+  "description": "Utility library for JavaScript to help with modularity"
 }
